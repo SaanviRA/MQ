@@ -5,23 +5,15 @@
 layout: single
 author_profile: false
 ---
-# Complex numbers have a *real* and *imaginary* component - \\(a + bi\\), where a and b are **real numbers** and i is the **imaginary unit**
-
-# Complex number can also be represented in polar form:
-# [![polar_form](https://dr282zn36sxxg.cloudfront.net/datastreams/f-d%3A0bc82efbf67a17d08f623f74c1a3c03911079b84404a2a5c486fc408%2BIMAGE_TINY%2BIMAGE_TINY.1)](https://math.libretexts.org/Bookshelves/Precalculus/Precalculus_1e_(OpenStax)/08%3A_Further_Applications_of_Trigonometry/8.05%3A_Polar_Form_of_Complex_Numbers)
-
-# Check out this video to learn how polar form is derived:
-# <iframe width="560" height="315" src="https://www.youtube.com/embed/lFT2hwsCMls?si=KpZM1HVsF6wPEbmT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 
 **Project Idea:** Use a quantum optimization algorithm to discover the fastest distances between a pick-up locations for a food pantry.
 
-**Background:** include video at the end of this section
+**Background:** Currently, the food pantry gets its donations from multiple places such as grocery stores and induvidual donors. In the case of grocery stores, volunteers drive to different locations to pick up the food. However, it proves to be difficult to efficiently obtain deliveries when there are various stops and a time constraint. Mathematical optimization has been used to solve complex location and routing problems in logistics and transportation. Classical problems such as the Traveling Salesman Problem (TSP) and Vehicle Routing Problem (VRP) determine the most efficient routes while minimizing costs and travel distances. Although these problems can often be solved for small instances, as the number of variables increase, they become computationally expensive. Recent advances in quantum computing have introduced new approaches for tackling challenges. Quantum algorithms such as Shor's algorithm and Grover's algorithm have demonstrated advancements ina  variety of fields. However, for location optimization problems, quantum annealing has emerged as the most practical approach because it is specifically designed to find low-energy solutions to optimization problems formulated as Quadratic Unconstrained Binary Optimization (QUBO) or Ising models. Quantum annealing has already been applied in various instances regarding logistics, routing, and finance.
 
 **Motivation:** Help my food pantry optimize their routes for faster deliveries and pick-ups.
 
 **Tools:** 
-    **Mathematics:** Graph theory, Geometry, 
+    **Mathematics:** Graph theory, Geometry, Linear Algebra
     **Creation:** IBM Quantum Composer
 
 **Goals:** I'm interested in conducting rersearch on the current performance and limitations of quantum algorithms in daily use cases in comparison to classical algorithms. I'm also looking to study computer science and quantum physics in college.
